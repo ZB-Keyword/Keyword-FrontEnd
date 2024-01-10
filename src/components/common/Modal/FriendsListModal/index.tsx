@@ -32,6 +32,7 @@ const FriendListModal: React.FC = () => {
       saveMySelectedFriends(checkedList);
     },
     [checkedState]
+    [checkedState, saveMySelectedFriends]
   );
 
   return (
